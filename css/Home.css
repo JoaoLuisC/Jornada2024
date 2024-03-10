@@ -1,2 +1,68 @@
-/*---------------------------*/
-/*---------------------------*/
+:root {
+    --preto: #222;
+    --branco: #fff;
+    --amarelo: #fffb00;
+    --amarelo-claro: #f5f859;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+.home h1,
+.home p {
+    margin: 0;
+}
+
+.home-text p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.home-text i {
+    font-size: 32px;
+    color: var(--preto);
+    margin-right: 10px;
+}
+
+.home-text-infos a {
+    display: block;
+    width: 160px;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    border-radius: 20px;
+    background-color: var(--preto);
+    color: var(--branco);
+    box-shadow: 1px 1px 5px var(--preto);
+    transition: .5s;
+
+}
+
+.home-text-infos a:hover {
+    background-color: var(--branco);
+    color: var(--preto);
+    transition: .5s;
+}
+
+#logo-jornada {
+    display: block;
+    height: 300px;
+    width: 300px;
+    background-color: var(--preto);
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+
+    .home-text-infos a {
+        margin: auto;
+    }
+
+    #logo-jornada {
+        margin-top: 35px;
+    }
+}
