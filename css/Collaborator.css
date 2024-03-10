@@ -1,2 +1,11 @@
-/*---------------------------*/
-/*---------------------------*/
+.collaborator img {
+    width: 80%; /* Reduzindo a largura da imagem */
+    height: 120%;
+    margin: 10px auto; /* Adicionando margem para o espaçamento (10px em cima/baixo, auto nas laterais) */
+    display: block; /* Para centralizar a imagem horizontalmente */
+}
+
+.collaborator {
+    padding: 20px;
+    text-align: center; /* Para centralizar a imagem verticalmente */
+}
