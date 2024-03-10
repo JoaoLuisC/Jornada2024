@@ -1,2 +1,76 @@
-/*---------------------------*/
-/*---------------------------*/
+.about {
+    padding: 5%;
+}
+
+.about h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about p {
+    margin: 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 50px;
+}
+
+.about-box {
+    display: block;
+    height: 350px;
+    background-color: var(--branco);
+    border: 1px solid var(--preto);
+    text-align: center;
+}
+
+.about-box i {
+    font-size: 32px;
+    background-color: var(--branco);
+    padding: 20px;
+    margin-top: -100%;
+    border: 1px solid var(--preto);
+}
+
+.about-box h3 {
+    margin: 30px 0;
+}
+
+.about-box:hover,
+.about-box:hover i {
+    border-color: var(--amarelo);
+    transition: .9s ease-out;
+}
+
+.about-box:hover i {
+    color: var(--branco);
+    background-color: var(--amarelo-claro);
+    transition: .9s ease-out;
+}
+
+@media (max-width:1199px) {
+    .about-box {
+        height: 420px;
+    }
+}
+
+@media (max-width:991px) {
+    .about-box {
+        height: 350px;
+        margin: 50px 0;
+    }
+}
+
+@media (max-width:767px) {
+    .about-box {
+        height: 300px;
+    }
+}
+
+@media (max-width:576px) {
+    .about-box {
+        height: 330px;
+    }
+}
