@@ -1,6 +1,11 @@
-body{
-    padding: 0 5%;
+:root {
+    --preto: #222;
+    --branco: #fff;
 }
-header{
+section{
+    padding: 5% 0;
+    margin:0 5% ;
+}
+.header_nav{
     margin-bottom: 10%;
 }

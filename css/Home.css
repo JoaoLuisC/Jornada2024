@@ -1,14 +1,6 @@
-:root {
-    --preto: #222;
-    --branco: #fff;
-    --amarelo: #fffb00;
-    --amarelo-claro: #f5f859;
-}
-
 .home {
     display: flex;
     align-items: center;
-    padding: 5%;
 }
 
 .home h1,
@@ -50,10 +42,8 @@
 
 #logo-jornada {
     display: block;
-    height: 300px;
-    width: 300px;
     background-color: var(--preto);
-    margin: auto;
+    margin-left: auto;
 }
 
 @media (max-width: 768px) {
